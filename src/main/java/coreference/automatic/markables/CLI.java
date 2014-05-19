@@ -71,7 +71,7 @@ public class CLI {
   private void loadParameters() {
     argParser.addArgument("-l", "--lang")
         .choices("de", "en", "es", "fr", "it", "nl").required(false)
-        .help("Choose a language to creat automatic markables.");
+        .help("Choose a language to create automatic markables.");
   }
 
   public final void annotate(final InputStream inputStream,
